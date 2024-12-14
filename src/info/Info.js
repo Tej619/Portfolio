@@ -4,6 +4,7 @@ import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
+import mock6 from "../img/mock6.png"
 
 export let colors = ["rgb(10, 255, 75)", "rgb(68, 0, 255)"];
 
@@ -84,12 +85,12 @@ export const info = {
         }
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
-        // {
-        //     title: "Project 1",
-        //     live: "https://portfolio-liart-two-13.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-        //     source: "https://github.com/Tej619/Portfolio", // this should be a link to the **repository** of the project, where the code is hosted.
-        //     image: mock6
-        // },
+        {
+            title: "Project 1",
+            live: "https://portfolio-liart-two-13.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/Tej619/Portfolio", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: mock6
+        },
         // {
         //     title: "Project 2",
         //     live: "https://paytonpierce.dev",
