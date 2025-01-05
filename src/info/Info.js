@@ -1,10 +1,6 @@
 import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
-import mock6 from "../img/mock6.png"
+import project_1 from "../img/project_1.png"
+import project_2 from "../img/project_2.png"
 
 export let colors = ["rgb(10, 255, 75)", "rgb(68, 0, 255)"];
 
@@ -89,14 +85,14 @@ export const info = {
             title: "Project 1",
             live: "https://portfolio-liart-two-13.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/Tej619/Portfolio", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock6
+            image: project_1
         },
-        // {
-        //     title: "Project 2",
-        //     live: "https://paytonpierce.dev",
-        //     source: "https://github.com/paytonjewell",
-        //     image: mock2
-        // },
+        {
+            title: "Project 2",
+            live: "https://pennybuddy-ten.vercel.app/",
+            source: "https://github.com/Ayaan2907/PennyBuddy",
+            image: project_2
+        },
         // {
         //     title: "Project 3",
         //     live: "https://paytonpierce.dev",
