@@ -103,7 +103,7 @@ export const info = {
         },
         {
             title: "Project 4",
-            live: "https://textify-kappa-liard.vercel.app/",
+            live: "",
             source: "https://github.com/Tej619/Text_to_Speech.git",
             image: project_4
         },
