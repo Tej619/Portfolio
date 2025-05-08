@@ -97,7 +97,7 @@ export default function About({ innerRef }) {
       mt={"3rem"}
       id={"about"}
     >
-      <Terminal text={aboutMeText()} />
+      
       <Box
         component={"main"}
         display={"flex"}
@@ -257,6 +257,7 @@ export default function About({ innerRef }) {
           />
         </Box>
       </Box>
+      <Terminal text={aboutMeText()} />
       <Terminal text={miscText()} />
     </Box>
   );

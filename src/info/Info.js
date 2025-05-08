@@ -1,6 +1,8 @@
 import self from "../img/self.png"
 import project_1 from "../img/project_1.png"
 import project_2 from "../img/project_2.png"
+import project_3 from "../img/project_3.png"
+import project_4 from "../img/project_4.png"
 
 export let colors = ["rgb(10, 255, 75)", "rgb(68, 0, 255)"];
 
@@ -83,8 +85,8 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "Project 1",
-            live: "https://portfolio-liart-two-13.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/Tej619/Portfolio", // this should be a link to the **repository** of the project, where the code is hosted.
+            live: "https://portfolio-liart-two-13.vercel.app/",
+            source: "https://github.com/Tej619/Portfolio",
             image: project_1
         },
         {
@@ -93,23 +95,17 @@ export const info = {
             source: "https://github.com/Ayaan2907/PennyBuddy",
             image: project_2
         },
-        // {
-        //     title: "Project 3",
-        //     live: "https://paytonpierce.dev",
-        //     source: "https://github.com/paytonjewell",
-        //     image: mock3
-        // },
-        // {
-        //     title: "Project 4",
-        //     live: "https://paytonpierce.dev",
-        //     source: "https://github.com/paytonjewell",
-        //     image: mock4
-        // },
-        // {
-        //     title: "Project 5",
-        //     live: "https://paytonpierce.dev",
-        //     source: "https://github.com/paytonjewell",
-        //     image: mock5
-        // }
+        {
+            title: "Project 3",
+            live: "https://textify-kappa-liard.vercel.app/",
+            source: "https://github.com/Tej619/Textify.git",
+            image: project_3
+        },
+        {
+            title: "Project 4",
+            live: "https://textify-kappa-liard.vercel.app/",
+            source: "https://github.com/Tej619/Text_to_Speech.git",
+            image: project_4
+        },
     ],
 }
