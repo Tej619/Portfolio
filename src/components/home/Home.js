@@ -34,7 +34,7 @@ export default function Home({ innerRef }) {
       />
       <Box>
         <h1>
-          Hi, I'm{" "}
+          Hi, I am{" "}
           <span
             style={{
               background: info.gradient,
@@ -46,7 +46,7 @@ export default function Home({ innerRef }) {
           </span>
           <span className={Style.hand}>🤚🏻</span>
         </h1>
-        <h2>I'm {info.position}.</h2>
+        <h2>I am {info.position}.</h2>
         <Box component={"ul"} p={"0.8rem"}>
           {info.miniBio.map((bio, index) => (
             <EmojiBullet key={index} emoji={bio.emoji} text={bio.text}/>

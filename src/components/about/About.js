@@ -128,19 +128,18 @@ export default function About({ innerRef }) {
             fontSize={"1.0rem"}
             fontFamily={"Courier New, Courier, monospace"}
           >
-            Hi, I'm an{" "}
-            {specialWords("Computers and Information Science Engineer", 800)}{" "}
-            who loves to apply my engineering knowledge in the field of computer
-            science.
+            Hi, I am a{" "}
+            {specialWords("Full Stack Developer", 800)}{" "}
+            passionate about applying my engineering expertise to solve complex problems in the field of computer science.
+
+     
           </Box>
           <Box
             px={{ xs: "2rem", md: "3rem" }}
             fontSize={"1.0rem"}
             fontFamily={"Courier New, Courier, monospace"}
           >
-            Currently pursuing a Master of Science in Computer and Information
-            Science at the University of Michigan, I bring a solid foundation of
-            technical expertise and practical experience.
+          Currently pursuing a Master of Science in Computer and Information Science at the University of Michigan, I bring a strong foundation in software engineering, system design and modern development practices.
           </Box>
           <Box
             py={{ xs: "1rem", md: "2rem" }}
@@ -148,7 +147,20 @@ export default function About({ innerRef }) {
             fontSize={"1.0rem"}
             fontFamily={"Courier New, Courier, monospace"}
           >
-            Previously, as a {specialWords("Project Engineer", 800)} at Wipro, I
+             My professional journey spans roles in both frontend and backend development:
+            <ul>
+              <li>{specialWords("Associate System Analyst at NSEIT",800)} – Developed and optimized full-stack applications, enhancing system performance and reliability.</li>
+              <li>{specialWords("Frontend Software Engineer Intern at Faclon Labs",800)} – Built responsive, user-friendly web interfaces using modern frontend technologies.</li>
+              <li>{specialWords("Project Engineer at Wipro",800)} – Gained experience in software development lifecycles, problem-solving, and cross-functional collaboration.</li>
+            </ul>
+            </Box>
+            <Box
+            px={{ xs: "2rem", md: "3rem" }}
+            fontSize={"1.0rem"}
+            fontFamily={"Courier New, Courier, monospace"}>
+            These experiences have shaped me into a results-oriented developer with a keen interest in scalable architectures, performance optimization, and delivering high-quality software solutions.
+            
+            {/* Previously, as a {specialWords("Project Engineer", 800)} at Wipro, I
             honed my problem-solving and teamwork abilities. My internship at
             Faclon Labs as a {specialWords("Frontend Software Engineer", 800)}{" "}
             allowed me to deepen my proficiency in modern frontend technologies.
@@ -157,7 +169,7 @@ export default function About({ innerRef }) {
             delivering robust solutions and enhancing system performance. These
             experiences have strengthened my technical capabilities and shaped
             me into an effective communicator, a collaborative team player, and
-            a results-driven professional.
+            a results-driven professional. */}
           </Box>
         </Box>
         <Box
@@ -218,7 +230,16 @@ export default function About({ innerRef }) {
                 {specialWords("Angular")}
               </Box>,
               <Box fontFamily={"Courier New, Courier, monospace"}>
+                {specialWords("Deep Learning")}
+              </Box>,
+              <Box fontFamily={"Courier New, Courier, monospace"}>
+                {specialWords("Nest.js")}
+              </Box>,
+              <Box fontFamily={"Courier New, Courier, monospace"}>
                 {specialWords("Apache Kafka")}
+              </Box>,
+              <Box fontFamily={"Courier New, Courier, monospace"}>
+                {specialWords("Mongo")}
               </Box>,
               <Box fontFamily={"Courier New, Courier, monospace"}>
                 {specialWords("BootStrap")}
