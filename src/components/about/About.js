@@ -149,6 +149,7 @@ export default function About({ innerRef }) {
           >
              My professional journey spans roles in both frontend and backend development:
             <ul>
+              <li>{specialWords("Research Assistant at University of Michigan",800)} - Optimized a CPS system using Docker to improve performance and maintainability. Contributed to MLOps projects by developing a GitHub repository analysis tool with advanced search, commit filtering, and reporting. Integrated CI/CD pipelines with GitHub Actions, Jenkins to automate test case creation, detect inefficiencies, and enhance system reliability.</li>
               <li>{specialWords("Associate System Analyst at NSEIT",800)} – Developed and optimized full-stack applications, enhancing system performance and reliability.</li>
               <li>{specialWords("Frontend Software Engineer Intern at Faclon Labs",800)} – Built responsive, user-friendly web interfaces using modern frontend technologies.</li>
               <li>{specialWords("Project Engineer at Wipro",800)} – Gained experience in software development lifecycles, problem-solving, and cross-functional collaboration.</li>
