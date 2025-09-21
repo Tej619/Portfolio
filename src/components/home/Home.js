@@ -31,6 +31,10 @@ export default function Home({ innerRef }) {
         p={"0.75rem"}
         mb={{ xs: "1rem", sm: 0 }}
         mr={{ xs: 0, md: "2rem" }}
+        mt={{ xs: "-1rem", md: "-2rem" }} 
+        sx={{objectFit: "cover",
+        objectPosition: "top",
+        }}
       />
       <Box>
         <h1>

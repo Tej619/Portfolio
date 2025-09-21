@@ -23,11 +23,11 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'based in the Michigan, USA'
+            text: 'Based in the Michigan, USA'
         },
         {
             emoji: "💼",
-            text: "Ex - Associate System Analyst at NSEIT Limited"
+            text: "Research Assistant at University of Michigan"
         },
         {
             emoji: "📧",
