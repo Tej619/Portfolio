@@ -4,6 +4,7 @@ import project_2 from "../img/project_2.png"
 import project_3 from "../img/project_3.png"
 import project_4 from "../img/project_4.png"
 import project_5 from "../img/project_5.png"
+import project_6 from "../img/project_6.png"
 
 export let colors = ["rgb(10, 255, 75)", "rgb(68, 0, 255)"];
 
@@ -92,30 +93,33 @@ export const info = {
         },
         {
             title: "Project 2",
-            live: "https://pennybuddy-ten.vercel.app/",
-            source: "https://github.com/Ayaan2907/PennyBuddy",
+            live: "https://github.com/user-attachments/assets/136a4af2-3bc5-4d1c-9b87-3ddd15ee7cb0",
+            source: "https://github.com/Tej619/NovaNest.git",
             image: project_2
         },
         {
             title: "Project 3",
-            live: "https://euro-chatbot-v2.s3.us-east-1.amazonaws.com/index.html",
-            source: "https://github.com/Tej619/ECE-528-Cloud-Computing.git",
+            live: "https://pennybuddy-ten.vercel.app/",
+            source: "https://github.com/Ayaan2907/PennyBuddy",
             image: project_3
         },
         {
             title: "Project 4",
-            live: "https://textify-kappa-liard.vercel.app/",
-            source: "https://github.com/Tej619/Textify.git",
+            live: "https://euro-chatbot-v2.s3.us-east-1.amazonaws.com/index.html",
+            source: "https://github.com/Tej619/ECE-528-Cloud-Computing.git",
             image: project_4
         },
         {
             title: "Project 5",
-            live: "https://github.com/user-attachments/assets/c1f7359b-16db-40dd-8df7-ce9f8ed5b836",
-            source: "https://github.com/Tej619/Text_to_Speech.git",
+            live: "https://textify-kappa-liard.vercel.app/",
+            source: "https://github.com/Tej619/Textify.git",
             image: project_5
         },
         {
-
+            title: "Project 6",
+            live: "https://github.com/user-attachments/assets/c1f7359b-16db-40dd-8df7-ce9f8ed5b836",
+            source: "https://github.com/Tej619/Text_to_Speech.git",
+            image: project_6,
         }
     ],
 }
