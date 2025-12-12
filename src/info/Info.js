@@ -59,7 +59,7 @@ export const info = {
         }
 
     ],
-    bio: "Professional Full Stack Developer with 3.5 years of comprehensive experience in designing and implementing scalable web applications. Specializing in Java backend development and Angular frontend technologies, I excel at creating robust, high-performance software solutions that bridge innovative design with technical excellence.",
+    bio: "Professional Full Stack Developer with 4 years of comprehensive experience in designing and implementing scalable web applications. Specializing in Java backend development and Angular frontend technologies, I excel at creating robust, high-performance software solutions that bridge innovative design with technical excellence.",
     // skills:
     //     {
     //         proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
