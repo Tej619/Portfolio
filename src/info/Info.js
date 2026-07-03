@@ -5,6 +5,7 @@ import project_3 from "../img/project_3.png"
 import project_4 from "../img/project_4.png"
 import project_5 from "../img/project_5.png"
 import project_6 from "../img/project_6.png"
+import project_7 from "../img/project_7.png"
 
 export let colors = ["rgb(10, 255, 75)", "rgb(68, 0, 255)"];
 
@@ -21,7 +22,7 @@ export const info = {
     miniBio: [ 
         {
             emoji: '👨‍🎓',
-            text: 'Pursing MS in Computers and Information Science at University of Michigan'
+            text: 'MS in Computers and Information Science at University of Michigan'
         },
         {
             emoji: '🌎',
@@ -33,7 +34,7 @@ export const info = {
         },
         {
             emoji: "📧",
-            text: "tejas.vaity3@gmail.com"
+            text: "tejas.vaity33@gmail.com"
         },
         {
             emoji: "📑",
@@ -105,21 +106,27 @@ export const info = {
         },
         {
             title: "Project 4",
-            live: "https://euro-chatbot-v2.s3.us-east-1.amazonaws.com/index.html",
-            source: "https://github.com/Tej619/ECE-528-Cloud-Computing.git",
+            live: "https://github.com/Tej619/AI_Adventure_Trip.git",
+            source: "https://github.com/user-attachments/assets/df533912-4e75-4c80-8631-d6c01251353e",
             image: project_4
         },
         {
             title: "Project 5",
-            live: "https://textify-kappa-liard.vercel.app/",
-            source: "https://github.com/Tej619/Textify.git",
+            live: "https://euro-chatbot-v2.s3.us-east-1.amazonaws.com/index.html",
+            source: "https://github.com/Tej619/ECE-528-Cloud-Computing.git",
             image: project_5
         },
         {
             title: "Project 6",
+            live: "https://textify-kappa-liard.vercel.app/",
+            source: "https://github.com/Tej619/Textify.git",
+            image: project_6
+        },
+        {
+            title: "Project 7",
             live: "https://github.com/user-attachments/assets/c1f7359b-16db-40dd-8df7-ce9f8ed5b836",
             source: "https://github.com/Tej619/Text_to_Speech.git",
-            image: project_6,
+            image: project_7,
         }
     ],
 }

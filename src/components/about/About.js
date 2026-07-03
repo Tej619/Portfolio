@@ -160,17 +160,6 @@ export default function About({ innerRef }) {
             fontSize={"1.0rem"}
             fontFamily={"Courier New, Courier, monospace"}>
             These experiences have shaped me into a results-oriented developer with a keen interest in scalable architectures, performance optimization, and delivering high-quality software solutions.
-            
-            {/* Previously, as a {specialWords("Project Engineer", 800)} at Wipro, I
-            honed my problem-solving and teamwork abilities. My internship at
-            Faclon Labs as a {specialWords("Frontend Software Engineer", 800)}{" "}
-            allowed me to deepen my proficiency in modern frontend technologies.
-            Most recently, as an {specialWords("Associate System Analyst", 800)}{" "}
-            at NSEIT, I worked across both frontend and backend technologies,
-            delivering robust solutions and enhancing system performance. These
-            experiences have strengthened my technical capabilities and shaped
-            me into an effective communicator, a collaborative team player, and
-            a results-driven professional. */}
           </Box>
         </Box>
         <Box
@@ -234,7 +223,7 @@ export default function About({ innerRef }) {
                 {specialWords("Deep Learning")}
               </Box>,
               <Box fontFamily={"Courier New, Courier, monospace"}>
-                {specialWords("Nest.js")}
+                {specialWords("Next.js")}
               </Box>,
               <Box fontFamily={"Courier New, Courier, monospace"}>
                 {specialWords("Apache Kafka")}
@@ -275,6 +264,49 @@ export default function About({ innerRef }) {
               <Box fontFamily={"Courier New, Courier, monospace"}>
                 {specialWords("Redis")}
               </Box>,
+              <Box fontFamily={"Courier New, Courier, monospace"}>
+                {specialWords("LangGraph")}
+              </Box>,
+              <Box fontFamily={"Courier New, Courier, monospace"}>
+                {specialWords("Langchain")}
+              </Box>,
+              <Box fontFamily={"Courier New, Courier, monospace"}>
+                {specialWords("AI Agents")}
+              </Box>,
+              <Box fontFamily={"Courier New, Courier, monospace"}>
+                {specialWords("Prompt Engineering")}
+              </Box>,
+              <Box fontFamily={"Courier New, Courier, monospace"}>
+                {specialWords("Vector Search")}
+              </Box>,
+              <Box fontFamily={"Courier New, Courier, monospace"}>
+                {specialWords("Embeddings")}
+              </Box>,
+              <Box fontFamily={"Courier New, Courier, monospace"}>
+                {specialWords("Claude Code")}
+              </Box>,
+              <Box fontFamily={"Courier New, Courier, monospace"}>
+                {specialWords("OpenAI API")}
+              </Box>,
+              <Box fontFamily={"Courier New, Courier, monospace"}>
+                {specialWords("GCP")}
+              </Box>,
+              <Box fontFamily={"Courier New, Courier, monospace"}>
+                {specialWords("Docker")}
+              </Box>,
+              <Box fontFamily={"Courier New, Courier, monospace"}>
+                {specialWords("Kubernetes")}
+              </Box>,
+              <Box fontFamily={"Courier New, Courier, monospace"}>
+                {specialWords("Jenkins")}
+              </Box>,
+              <Box fontFamily={"Courier New, Courier, monospace"}>
+                {specialWords("DataDog")}
+              </Box>,
+              <Box fontFamily={"Courier New, Courier, monospace"}>
+                {specialWords("AWS")}
+              </Box>
+              
             ]}
           />
         </Box>
