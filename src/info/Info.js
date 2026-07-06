@@ -6,6 +6,7 @@ import project_4 from "../img/project_4.png"
 import project_5 from "../img/project_5.png"
 import project_6 from "../img/project_6.png"
 import project_7 from "../img/project_7.png"
+import project_8 from "../img/project_8.png"
 
 export let colors = ["rgb(10, 255, 75)", "rgb(68, 0, 255)"];
 
@@ -100,33 +101,40 @@ export const info = {
         },
         {
             title: "Project 3",
-            live: "https://pennybuddy-ten.vercel.app/",
-            source: "https://github.com/Ayaan2907/PennyBuddy",
+            live: "https://github.com/user-attachments/assets/14538cdf-e738-4725-81d9-21907d19b774",
+            source: "https://github.com/Tej619/AI-Powered-Retail-Analytics-Inventory-Agent.git",
             image: project_3
         },
         {
             title: "Project 4",
-            live: "https://github.com/Tej619/AI_Adventure_Trip.git",
-            source: "https://github.com/user-attachments/assets/df533912-4e75-4c80-8631-d6c01251353e",
+            live: "https://github.com/user-attachments/assets/df533912-4e75-4c80-8631-d6c01251353e",
+            source: "https://github.com/Tej619/AI_Adventure_Trip.git",
             image: project_4
         },
         {
             title: "Project 5",
-            live: "https://euro-chatbot-v2.s3.us-east-1.amazonaws.com/index.html",
-            source: "https://github.com/Tej619/ECE-528-Cloud-Computing.git",
+            live: "https://pennybuddy-ten.vercel.app/",
+            source: "https://github.com/Ayaan2907/PennyBuddy",
             image: project_5
         },
         {
             title: "Project 6",
-            live: "https://textify-kappa-liard.vercel.app/",
-            source: "https://github.com/Tej619/Textify.git",
+            live: "https://euro-chatbot-v2.s3.us-east-1.amazonaws.com/index.html",
+            source: "https://github.com/Tej619/ECE-528-Cloud-Computing.git",
             image: project_6
         },
         {
             title: "Project 7",
+            live: "https://textify-kappa-liard.vercel.app/",
+            source: "https://github.com/Tej619/Textify.git",
+            image: project_7
+        },
+        {
+            title: "Project 8",
             live: "https://github.com/user-attachments/assets/c1f7359b-16db-40dd-8df7-ce9f8ed5b836",
             source: "https://github.com/Tej619/Text_to_Speech.git",
-            image: project_7,
+            image: project_8,
         }
+        
     ],
 }
